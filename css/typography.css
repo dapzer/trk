@@ -40,6 +40,7 @@ a,
   color: var(--c-primary);
   font-weight: var(--fw-regular);
   font-size: var(--fs-p);
+  text-decoration: none;
 }
 
 a:hover,
