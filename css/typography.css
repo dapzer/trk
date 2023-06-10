@@ -1,0 +1,48 @@
+/*Typography*/
+
+h1,
+.h1 {
+  font-size: var(--fs-h1);
+  font-weight: var(--fw-bold);
+  color: var(--c-primary);
+}
+
+h2,
+.h2 {
+  font-size: var(--fs-h2);
+  font-weight: var(--fw-bold);
+  color: var(--c-primary);
+}
+
+h3,
+.h3 {
+  font-size: var(--fs-h3);
+  font-weight: var(--fw-bold);
+  color: var(--c-primary);
+}
+
+p,
+.p {
+  font-size: var(--fs-p);
+  font-weight: var(--fw-regular);
+  color: var(--c-text);
+}
+
+span,
+.span {
+  font-size: var(--fs-span);
+  font-weight: var(--fw-regular);
+  color: var(--c-text-light);
+}
+
+a,
+.link {
+  color: var(--c-primary);
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-p);
+}
+
+a:hover,
+.link:hover {
+  color: var(--c-highlight);
+}

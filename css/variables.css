@@ -1,0 +1,50 @@
+:root {
+
+  /* Colors */
+
+  --c-text: #2B2B2B;
+  --c-background: #1f242d;
+  --c-primary: #2B2B2B;
+  --c-secondary: #fff;
+  --c-highlight: #0073fa;
+  --c-accent: #2B2B2B;
+  --c-text-light: #6C6C6C;
+
+  /* Font sizes */
+
+  --fs-h1: 3em;
+  --fs-h2: 2em;
+  --fs-h3: 1.5em;
+  --fs-p: 1.25em;
+  --fs-span: 1em;
+
+  /* Font sizes for mobile */
+
+  --fs-m-h1: 2.5em;
+  --fs-m-h2: 1.75em;
+  --fs-m-h3: 1.5em;
+  --fs-m-p: 1.25em;
+  --fs-m-span: 1em;
+
+  /* Font weights */
+
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
+
+  /* Sizes */
+
+  --s-indent: 24px;
+  --s-container: calc(1400px + calc(var(--s-indent) * 2));
+  --s-header-height: 52px;
+  --s-border-radius: 2px;
+
+  /* Breakpoints */
+
+  --bp-xl: 1440px;
+  --bp-lg: 1250px;
+  --bp-slg: 825px;
+  --bp-md: 700px;
+  --bp-sm: 400px;
+}

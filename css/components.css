@@ -1,0 +1,22 @@
+@import "./variables.css";
+
+/*Components*/
+
+.container {
+  width: 100%;
+  max-width: var(--s-container);
+  margin: 0 auto;
+  padding: 0 var(--s-indent);
+}
+
+button,
+.button {
+  cursor: pointer;
+  background: var(--c-accent);
+  color: var(--c-secondary);
+  border: none;
+  border-radius: var(--s-border-radius);
+  padding: 12px 36px;
+  font-weight: var(--fw-medium);
+  font-size: var(--fs-p);
+}
