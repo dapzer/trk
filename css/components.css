@@ -1,4 +1,4 @@
-/*Components*/
+/* Ui kit */
 
 .container {
   width: 100%;
@@ -20,6 +20,17 @@ button,
   width: fit-content;
 }
 
+input,
+.input {
+  outline: none;
+  border: 1px solid var(--c-text);
+  font-size: var(--fs-p);
+  font-weight: var(--fw-regular);
+  color: var(--c-text);
+  padding: 16px 24px;
+  width: 100%;
+}
+
 /* Text block */
 
 .text-block {
@@ -37,7 +48,7 @@ button,
   align-items: center;
   padding-top: 160px;
   padding-bottom: 32px;
-  gap: 64px;
+  /*gap: 64px;*/
 }
 
 .category-title h1 {
@@ -55,17 +66,29 @@ button,
   align-self: center;
   border: 1px solid var(--c-text);
   width: 32px;
+  min-width: 32px;
   height: 32px;
+  min-height: 32px;
 }
 
 .category-title__line {
   flex-grow: 1;
   height: 1px;
-  background: var(--c-text);
+  /*background: var(--c-text);*/
+  border-bottom: 1px solid var(--c-text);
 }
 
+.category-title__line,
 .category-title__placeholder:nth-child(1) {
   width: 32px;
+  margin: 0 64px;
+}
+
+@media (max-width: 700px) {
+  .category-title__line,
+  .category-title__placeholder:nth-child(1) {
+    margin: 0 12px;
+  }
 }
 
 .category-title__placeholder:nth-child(2) {

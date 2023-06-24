@@ -1,0 +1,19 @@
+.contact-us form {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-us form input {
+  max-width: 640px;
+}
+
+.contact-us form textarea {
+  min-height: 160px;
+  resize: none;
+}
