@@ -1,10 +1,19 @@
 .hero {
-  height: calc(100vh - var(--s-header-height));
+  min-height: 500px;
   position: relative;
+  display: flex;
+  align-items: center;
+  padding: 64px 0;
 }
 
 .hero__about button {
-  margin-top: 24px;
+  margin-top: 8px;
+}
+
+.hero__title {
+  width: fit-content;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--c-text);
 }
 
 .hero video {
@@ -18,7 +27,7 @@
 }
 
 .hero__about {
-  padding-top: 190px;
+  padding: 0 26px;
   max-width: 600px;
   display: flex;
   flex-direction: column;
