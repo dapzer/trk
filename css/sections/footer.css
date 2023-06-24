@@ -17,17 +17,18 @@
 .footer__content {
   display: flex;
   justify-content: space-between;
-  gap: 70px;
+  gap: 40px;
   padding-bottom: 24px;
   flex-wrap: wrap;
 
-  /*align-items: center;*/
+  align-items: center;
 }
 
 .footer__contacts {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  max-width: 420px;
 }
 
 .footer__contacts .list {
