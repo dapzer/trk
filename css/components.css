@@ -51,6 +51,12 @@ input,
   /*gap: 64px;*/
 }
 
+@media (max-width: 700px) {
+  .category-title {
+    padding-top: 80px;
+  }
+}
+
 .category-title h1 {
   /*margin-left: auto;*/
   width: max-content;
