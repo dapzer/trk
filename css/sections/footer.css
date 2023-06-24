@@ -44,7 +44,7 @@
 }
 
 .footer__contacts a {
-  text-decoration: underline;
+  border-bottom: 1px solid var(--c-secondary);
 }
 
 .footer__contacts a:hover {
