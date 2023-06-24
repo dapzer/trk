@@ -56,7 +56,7 @@ button,
   border: 1px solid var(--c-text);
   width: 32px;
   height: 32px;
-  }
+}
 
 .category-title__line {
   flex-grow: 1;
@@ -72,7 +72,7 @@ button,
   flex-grow: 1;
 }
 
-.category-title:nth-child(2n) {
+.category-title__reversed {
   flex-direction: row-reverse;
 }
 
@@ -89,4 +89,21 @@ button,
   gap: 20px;
 }
 
+/* Bracket */
 
+.bracket {
+  width: 100%;
+  margin-top: -20px;
+  position: relative;
+}
+
+.bracket:after {
+  content: '';
+  position: absolute;
+  bottom: -16px;
+  right: -16px;
+  width: 80px;
+  height: 80px;
+  border-bottom: 1px solid var(--c-text);
+  border-right: 1px solid var(--c-text);
+}
