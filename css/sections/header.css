@@ -1,17 +1,16 @@
 .header__container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 12px var(--s-indent);
+  padding: 40px var(--s-indent);
 }
 
-.header__links {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
 
-.logo {}
+.logo {
+  font-family: var(--ff-barcode) !important;
+  font-size: var(--fs-logo);
+  font-weight: var(--fw-regular);
+}
 
 .logo:hover {
   color: var(--c-text);

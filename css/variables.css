@@ -12,6 +12,7 @@
 
   /* Font sizes */
 
+  --fs-logo: 5em;
   --fs-h1: 3em;
   --fs-h2: 2em;
   --fs-h3: 1.5em;
@@ -32,6 +33,10 @@
   --fw-regular: 400;
   --fw-medium: 500;
   --fw-bold: 700;
+
+  /* Font families */
+
+  --ff-barcode: 'Libre Barcode 39 Extended Text', cursive;
 
   /* Sizes */
 
