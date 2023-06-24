@@ -10,6 +10,7 @@
 @import './sections/about.css';
 @import './sections/services.css';
 @import './sections/contactUs.css';
+@import './sections/footer.css';
 
 
 /*Layout*/
@@ -22,11 +23,11 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
-  padding-bottom: 100px;
 }
 
 main {
   flex: 1 1 auto;
+  margin-bottom: 100px;
 }
 
 /* Плавный скролл */
