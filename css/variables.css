@@ -37,7 +37,7 @@
 
   --s-indent: 24px;
   --s-container: calc(1400px + calc(var(--s-indent) * 2));
-  --s-header-height: 52px;
+  --s-header-height: 61px;
   --s-border-radius: 2px;
 
   /* Breakpoints */

@@ -1,0 +1,31 @@
+.hero {
+  height: calc(100vh - var(--s-header-height));
+  position: relative;
+}
+
+.hero__about button {
+  margin-top: 24px;
+}
+
+.hero video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.hero__about {
+  padding-top: 190px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.hero__subtitle {
+  font-size: var(--fs-h3);
+  line-height: 1.2;
+}

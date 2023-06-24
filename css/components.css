@@ -17,4 +17,5 @@ button,
   padding: 12px 36px;
   font-weight: var(--fw-medium);
   font-size: var(--fs-p);
+  width: fit-content;
 }
