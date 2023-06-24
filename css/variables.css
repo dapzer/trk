@@ -2,9 +2,9 @@
 
   /* Colors */
 
-  --c-text: #2B2B2B;
+  --c-text: #000;
   --c-background: #1f242d;
-  --c-primary: #2B2B2B;
+  --c-primary: #1F1F1F;
   --c-secondary: #fff;
   --c-highlight: #0073fa;
   --c-accent: #2B2B2B;
@@ -13,8 +13,8 @@
   /* Font sizes */
 
   --fs-logo: 5em;
-  --fs-h1: 3em;
-  --fs-h2: 2em;
+  --fs-h1: 2em;
+  --fs-h2: 1.25em;
   --fs-h3: 1.5em;
   --fs-p: 1.25em;
   --fs-span: 1em;
@@ -32,16 +32,18 @@
   --fw-light: 300;
   --fw-regular: 400;
   --fw-medium: 500;
+  --fw-semi-bold: 600;
   --fw-bold: 700;
 
   /* Font families */
 
   --ff-barcode: 'Libre Barcode 39 Extended Text', cursive;
+  --ff-raleway: 'Raleway', sans-serif;
 
   /* Sizes */
 
   --s-indent: 24px;
-  --s-container: calc(1400px + calc(var(--s-indent) * 2));
+  --s-container: calc(1018px + calc(var(--s-indent) * 2));
   --s-header-height: 61px;
   --s-border-radius: 2px;
 

@@ -15,7 +15,7 @@ button,
   border: none;
   border-radius: var(--s-border-radius);
   padding: 12px 36px;
-  font-weight: var(--fw-medium);
+  font-weight: var(--fw-semi-bold);
   font-size: var(--fs-p);
   width: fit-content;
 }
