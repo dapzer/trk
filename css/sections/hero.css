@@ -27,7 +27,6 @@
 }
 
 .hero__about {
-  padding: 0 26px;
   max-width: 600px;
   display: flex;
   flex-direction: column;
