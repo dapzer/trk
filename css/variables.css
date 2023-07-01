@@ -12,7 +12,7 @@
 
   /* Font sizes */
 
-  --fs-logo: 5em;
+  --fs-logo: 2.5em;
   --fs-h1: 2em;
   --fs-h2: 1.25em;
   --fs-h3: 1.25em;
@@ -38,13 +38,14 @@
 
   /*Line Heights*/
 
+  --lh-logo: 56px;
   --lh-heading: 34px;
   --lh-text: 28px;
   --lh-text-2: 16px;
 
   /* Font families */
 
-  --ff-barcode: 'Libre Barcode 39 Extended Text', cursive;
+  --ff-sarpanch: 'Sarpanch', sans-serif;
   --ff-raleway: 'Raleway', sans-serif;
 
   /* Sizes */

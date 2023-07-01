@@ -54,9 +54,26 @@ a,
   font-weight: var(--fw-regular);
   font-size: var(--fs-p);
   text-decoration: none;
+
 }
 
-a:hover,
-.link:hover {
-  color: var(--c-highlight);
+.link__animated {
+  position: relative;
+}
+
+.link__animated:after {
+  content: '';
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  background-color: var(--c-text);
+  transition: all .2s linear;
+  width: 0;
+}
+
+.link__animated:hover:after {
+  width: 100%;
 }

@@ -2,16 +2,30 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 56px;
   padding: 40px var(--s-indent);
 }
 
 
 .logo {
-  font-family: var(--ff-barcode) !important;
+  font-family: var(--ff-sarpanch) !important;
   font-size: var(--fs-logo);
   font-weight: var(--fw-regular);
+  line-height: var(--lh-logo);
+  border-bottom: 1px solid var(--c-text);
 }
 
 .logo:hover {
   color: var(--c-text);
+}
+
+@media screen and (max-width: 600px) {
+ .header__container {
+   flex-direction: column;
+   gap: 8px;
+ }
+
+  .logo {
+    order: -1;
+  }
 }
