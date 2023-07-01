@@ -1,3 +1,15 @@
+.contact-us {
+  position: relative;
+}
+
+.contact-us__background {
+  position: absolute;
+  z-index: -1;
+  right: 50px;
+  top: 40%;
+  transform: rotate(-22deg);
+}
+
 .contact-us form {
   padding-top: 20px;
   display: flex;
@@ -11,15 +23,24 @@
 
 .contact-us form input {
   max-width: 640px;
+  background: none;
 }
 
 .contact-us form textarea {
   min-height: 160px;
   resize: none;
+  background: none;
+
 }
 
 @media screen and (max-width: 700px) {
   .contact-us form {
     gap: 24px;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .contact-us__background {
+    opacity: .1;
   }
 }
