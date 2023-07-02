@@ -23,3 +23,9 @@
     opacity: .1;
   }
 }
+
+@media (max-width: 800px) {
+  .category-title {
+    padding-top: 32px;
+  }
+}
