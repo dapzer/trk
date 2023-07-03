@@ -12,6 +12,10 @@
 @import './sections/contactUs.css';
 @import './sections/footer.css';
 
+@font-face {
+  font-family: "Corbel";
+  src: url("../assets/fonts/CORBEL.ttf");
+}
 
 /*Layout*/
 
